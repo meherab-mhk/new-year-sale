@@ -1,0 +1,125 @@
+/*  font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif; 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.inline-block{
+    display: inline-block;
+}
+.content-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.banner{
+    background-image: url("../images/bannerImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.banner-content{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.banner-content h3{
+    
+    color: white;
+    font-family: 'Merriweather', serif; 
+    font-size: 32px;
+    font-weight: 400;
+    
+}
+.banner-content h1{
+    margin-top: 16px;
+    color: white;
+    font-family: 'Merriweather', serif; 
+    font-size: 72px;
+    font-weight: 400;
+    
+}
+.all-category-content{
+    text-align: center;
+}
+.all-category-content h3{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.all-category-content p{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.all-category-content .all-category-heading{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.midnightparty{
+    background-image: url("../images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.midnightparty-content{
+    background-color: rgba(0, 0, 0, 0.477);
+    padding-top: 126px;
+    padding-bottom: 142px;
+}
+.midnightparty-content h3{
+    font-family: 'Merriweather', serif; 
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    padding-left: 126px;
+}
+.midnightparty-content p{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    padding-left: 126px;
+    padding-right: 35px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.midnightparty-content a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-left: 150px;
+    margin-top: 24px;
+}
+.yearimg{
+    background-color: rgba(0, 0, 0, 0.477);
+    padding-top: 65px;
+    padding-right: 65px;
+}
