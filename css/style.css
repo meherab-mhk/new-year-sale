@@ -123,3 +123,26 @@ section{
     padding-top: 65px;
     padding-right: 65px;
 }
+.schedule{
+    background-image: url("../images/Vector.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.schedule-content{
+    text-align: center;
+
+}
+.schedule-content p{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.schedule-content p span{
+    color: #FF0000;
+}
