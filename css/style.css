@@ -289,3 +289,95 @@ section{
     font-weight: 700;
     margin-top: 150px;
 }
+.newsletter{
+    background-color: #ff000021;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.newsletter h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif; 
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+.newsletter p{
+    margin-bottom: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0702118c;
+    padding: 0 140px;
+    line-height: 30px;
+}
+.newsletter-input{
+    display: flex;
+    justify-content: center;
+}
+.newsletter-input input[type="email"], .newsletter-input input[type="submit"] {
+    padding: 20px 30px;
+    border: none;
+}
+.newsletter-input input[type="email"] {
+    border-radius: 50px 0 0 50px;
+    width: 35%;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0702118c;
+}
+.newsletter-input input[type="submit"] {
+    border-radius: 0 50px 50px 0;
+    background-color: #FF0000;
+    color: white;
+    width: 15%;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+footer{
+    background-color: #070211;
+    padding: 120px 0;
+}
+.footer-top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.148);
+}
+.footer-top-content p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.footer-social-icon{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.148);
+}
+.footer-bottom-content p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    line-height: 40px;
+    margin-top: 50px;
+}
+footer > article > section{
+    margin: 0;
+}
