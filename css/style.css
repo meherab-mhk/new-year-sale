@@ -140,9 +140,53 @@ section{
 .schedule-content p{
     font-family: 'Inter', sans-serif;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 50px;
 }
 .schedule-content p span{
     color: #FF0000;
+}
+.best-offer{
+    display: flex;
+    gap: 80px;
+
+}
+.best-offer-leftside span{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.best-offer-leftside h3{
+    font-family: 'Merriweather', serif; 
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-top: 16px;
+}
+.best-offer-leftside p{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0702118c;
+    margin-top: 22px;
+}
+.best-offer-middleside img{
+    border: 15px solid #FF0000;
+    border-radius: 100%;
+    padding: 20px;
+}
+.best-offer-rightside h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+}
+.best-offer-rightside p{
+    margin-top: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0702118c;
+    margin-bottom: 45px;
 }
