@@ -147,9 +147,21 @@ section{
     font-size: 32px;
     font-weight: 600;
     line-height: 50px;
+    
 }
 .schedule-content p span{
     color: #FF0000;
+}
+.schedule-content a{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 16px 32px;
+    background: #FF0000;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 48px;
 }
 
 /* best offer section css */
